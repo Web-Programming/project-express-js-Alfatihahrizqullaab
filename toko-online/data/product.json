@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Laptop Gaming",
+        "price": 15000000,
+        "description": "Laptop berperforma tinggi untuk gaming"
+    },
+    {
+        "id": 2,
+        "name": "Smartphone Pro",
+        "price": 7000000,
+        "description": "Smartphone dengan kamera profesional dan baterai tahan lama"
+    },
+    {
+        "id": 3,
+        "name": "Smart TV 55 Inch",
+        "price": 8500000,
+        "description": "TV pintar dengan resolusi 4K dan dukungan aplikasi streaming"
+    },
+    {
+        "id": 4,
+        "name": "Wireless Headset",
+        "price": 1200000,
+        "description": "Headset nirkabel dengan kualitas suara jernih"
+    },
+    {
+        "id": 5,
+        "name": "Bluetooth Speaker",
+        "price": 950000,
+        "description": "Speaker portable dengan suara bass yang kuat"
+    },
+    {
+        "id": 6,
+        "name": "Smartwatch Sport",
+        "price": 2300000,
+        "description": "Jam tangan pintar dengan fitur olahraga lengkap"
+    },
+    {
+        "id": 7,
+        "name": "Kamera DSLR",
+        "price": 12500000,
+        "description": "Kamera profesional dengan kualitas foto tinggi"
+    },
+    {
+        "id": 8,
+        "name": "Tablet Stylus",
+        "price": 6000000,
+        "description": "Tablet dengan stylus untuk desain dan menulis"
+    },
+    {
+        "id": 9,
+        "name": "Printer Wireless",
+        "price": 2200000,
+        "description": "Printer multifungsi dengan koneksi WiFi"
+    },
+    {
+        "id": 10,
+        "name": "Keyboard Mechanical",
+        "price": 850000,
+        "description": "Keyboard mekanik dengan switch tahan lama"
+    },
+    {
+        "id": 11,
+        "name": "Mouse Gaming",
+        "price": 450000,
+        "description": "Mouse dengan DPI tinggi dan lampu RGB"
+    },
+    {
+        "id": 12,
+        "name": "External Hard Drive 1TB",
+        "price": 1200000,
+        "description": "Hard disk eksternal untuk penyimpanan tambahan"
+    },
+    {
+        "id": 13,
+        "name": "SSD 512GB",
+        "price": 1500000,
+        "description": "Solid State Drive dengan kecepatan tinggi"
+    },
+    {
+        "id": 14,
+        "name": "Monitor 27 Inch",
+        "price": 4000000,
+        "description": "Monitor IPS dengan resolusi 2K untuk editing"
+    },
+    {
+        "id": 15,
+        "name": "Router WiFi 6",
+        "price": 1800000,
+        "description": "Router dengan kecepatan internet super cepat"
+    },
+    {
+        "id": 16,
+        "name": "Power Bank 20000mAh",
+        "price": 500000,
+        "description": "Power bank kapasitas besar untuk perjalanan"
+    },
+    {
+        "id": 17,
+        "name": "Drone Kamera 4K",
+        "price": 9500000,
+        "description": "Drone dengan kamera 4K dan GPS"
+    },
+    {
+        "id": 18,
+        "name": "Smart Glasses",
+        "price": 3200000,
+        "description": "Kacamata pintar dengan fitur AR"
+    },
+    {
+        "id": 19,
+        "name": "Mesin Cuci Otomatis",
+        "price": 5400000,
+        "description": "Mesin cuci hemat listrik dan air"
+    },
+    {
+        "id": 20,
+        "name": "AC Inverter",
+        "price": 6700000,
+        "description": "Air conditioner hemat energi dengan inverter"
+    }
+]
