@@ -6,6 +6,8 @@ var logger = require('morgan');
 var engine = require('ejs-blocks');// menggunkkan ejs block
 var mongoose = require('mongoose');
 
+require('./app_toko/models/db'); // koneksi ke database
+
 var indexRouter = require('./app_toko/routes/index');
 var usersRouter = require('./app_toko/routes/users');
 var productRouter = require("./app_toko/routes/product");

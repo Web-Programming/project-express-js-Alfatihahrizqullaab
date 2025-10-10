@@ -1,13 +1,13 @@
 const products = require("../../data/product.json");
 
 /* GET home page */
-const index = (req, res) => {
-  res.render("index", {
-    title: "Toko Online Sederhana",
-    products: products,   // ✅ konsisten
-    query: ""             // default kosong
-  });
-};
+// const index = (req, res) => {
+//   res.render("index", {
+//     title: "Toko Online Sederhana",
+//     products: products,   // ✅ konsisten
+//     query: ""             // default kosong
+//   });
+// };
 
 /* GET search */
 const search = (req, res) => {
@@ -27,4 +27,4 @@ const search = (req, res) => {
   });
 };
 
-module.exports = { index, search };
+module.exports = { search };
