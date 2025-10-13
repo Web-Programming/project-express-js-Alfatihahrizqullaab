@@ -1,12 +1,15 @@
 var express = require("express");
 var router = express.Router();
-var mainController = require("../controllers/main");
 var productController = require("../controllers/product");
 
-// Home
-router.get("/all", productController.index);
+// Home ambil produk dari database
+router.get("/", productController.index);
 
-// Search
+// Search tetap gunakan mainController
+var mainController = require("../controllers/main");
 router.get("/search", mainController.search);
+
+// Detail produk
+router.get("/:id", productController.detail);
 
 module.exports = router;
