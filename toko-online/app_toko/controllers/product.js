@@ -104,21 +104,6 @@ const detailproduk = async (req, res) => {
             message: "Gagal membuat produk"
         });
     }
-
-    const productId = req.params.id;
-    const product = await Products.findById(productId);
-
-    if(!product){
-        return res.status(404).json({
-            status: false,
-            message: "Produk tidak ditemukan"
-        });
-    }
-
-    res.status(200).json({
-        status: true,
-        message: "Gagal memuat detail produk"
-    })
 }
 
 //update data
