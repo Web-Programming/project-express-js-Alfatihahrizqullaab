@@ -13,6 +13,7 @@ var usersRouter = require('./app_toko/routes/users');
 var productRouter = require("./app_toko/routes/product");
 var apiProductRouter = require("./app_toko/routes/api/product");
 var apiUserRouter = require("./app_toko/routes/api/user");
+var apiOrderRouter = require("./app_toko/routes/api/order");
 
 var app = express();
 
@@ -36,6 +37,7 @@ app.use('/users', usersRouter);
 app.use("/product",productRouter);
 app.use("/api/product", apiProductRouter);
 app.use("/api/users", apiUserRouter)
+app.use("/api/orders", apiOrderRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
